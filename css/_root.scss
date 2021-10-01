@@ -1,0 +1,19 @@
+$color-main: hsl(218, 28%, 13%);
+$color-intro: hsl(217, 28%, 15%);
+$color-footer: hsl(216, 53%, 9%);
+$color-testimonials: hsl(219, 30%, 18%);
+$color-text: #fff; 
+$color-btn: #b65aff;
+
+.btn-style{
+    background-color: hsl(198, 60%, 50%);
+    color: $color-text;
+    border: none;
+    border-radius: 20px;
+    width: 20%;
+    cursor: pointer;
+    transition: all 200ms;
+}
+.btn-style:hover{
+    background-color: $color-btn;
+}
